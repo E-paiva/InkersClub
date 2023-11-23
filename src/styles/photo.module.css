@@ -1,0 +1,166 @@
+.showImage {
+  color: var(--secondarycolor);
+  margin-top: 36px;
+}
+
+.photoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.photoInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  
+}
+
+.photo {
+  border: var(--secondarycolor)solid 3px;
+  border-radius: 4px;
+  width: 90vw;
+  height: 90vw;
+  filter: drop-shadow(-4px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.profilePath {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.backButton {
+  background: transparent;
+  border: none;
+  margin-bottom: 36px;
+
+}
+
+.deleteButton {
+  background: transparent;
+  border: none;
+}
+
+.deleteButton img {
+  height: 28px;
+}
+
+.backButton img {
+  height: 24px;
+}
+
+.tagButton {
+  background-color: var(--secondarycolor);
+  color: var(--primarycolor);
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--font-style-paragraph);
+  font-size: var(--font-size-paragraph-2);
+  padding: .25rem .5rem;
+  border: none;
+  margin: 2px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.control {
+  display: flex;
+  margin-bottom: 160px;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+
+.artistpath {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: var(--secondarycolor);
+  font-family: var(--font-style-paragraph);
+  font-size: var(--font-size-paragraph-2);
+}
+
+.artistName {
+  color: var(--secondarycolor);
+  font-family: var(--font-style-heading);
+  font-size: var(--font-size-paragraph-2);
+  margin-bottom: 8px;
+}
+
+
+
+.cardBackground {
+  background-color: var(--secondarycolor);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 12px 12px 0 0;
+  flex-grow: 1
+}
+
+.myProfileContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.showImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestedPhoto {
+  border: var(--secondarycolor) solid 3px;
+  border-radius: 4px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-size: cover;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.suggestedPhotos {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+
+}
+
+.suggestedPhotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.suggestedPhotosContainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  
+}
+
+.title{
+  font-family: var(--font-style-heading);
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-bottom: 16px;
+}

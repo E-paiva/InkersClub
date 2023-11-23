@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env*
+
+src/pages/testes.js
+src/app/componentes/TesteEvellyn.jsx
+
+src/app/componentes/TesteEvellyn.jsx

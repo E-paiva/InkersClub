@@ -1,0 +1,68 @@
+.title {
+    font-family: var(--font-style-heading);
+    font-size: var(--font-size-h3);
+    color: var(--secondarycolor);
+    margin: 0;
+    font-weight: 400;
+    line-height: 160.6%;
+    letter-spacing: 0.1rem;
+    margin-bottom: 24px;
+}
+
+.signupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 100vh;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+
+
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.button {
+    background-color: var(--secondarycolor);
+    border: none;
+    color: var(--primarycolor);
+    padding: .5rem;
+    font-size: var(--font-style-paragraph);
+    font-family: var(--font-style-paragraph);
+    border-radius:0.25rem;
+    width: 50vw;
+    height: 2.5rem;
+    margin-top:16px ;
+}
+
+.error{
+    color: #e84e4f;
+    font-size: 20px ;
+    border-radius: 4px;
+    width: 80vw;
+    text-align: center;
+    font-family: var(--font-style-paragraph);
+    text-decoration: underline;
+}
+
+.backButton {
+    background: transparent;
+    border: none;
+    margin-top: 24px;
+    margin-left: -175px;
+}

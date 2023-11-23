@@ -1,0 +1,85 @@
+.ProfileHeader {
+  color: var(--secondarycolor);
+  background-color: var(--primarycolor);
+
+margin: 0.8rem;
+color: var(--secondarycolor);
+    background-color: var(--primarycolor);
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.idImage {
+
+  height: 100px;
+  width: 100px;
+
+  
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: left top;
+  filter: drop-shadow(-4px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.idContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tagsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.idData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+
+}
+
+
+
+.idData p {
+  font-family: var(--font-style-paragraph);
+  font-size: var(--font-size-paragraph-2);
+  margin: 0;
+  margin-bottom: 8px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-style-paragraph);
+  font-size: var(--font-size-paragraph-2);
+  
+  
+  gap: 6px;
+}
+.contactContainer p{
+  margin-bottom: 8px;
+  margin: 0px;
+  
+}
+.contactContainer a{
+  
+  color: var(--secondarycolor);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.idData h1 {
+  font-family: var(--font-style-heading);
+  font-size: var(--font-size-h3);
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.6%;
+  letter-spacing: 0.04rem;
+}

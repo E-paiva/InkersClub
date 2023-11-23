@@ -1,0 +1,102 @@
+.formWrapper {
+    margin-top: px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.addImageContainer {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.styleLabel{
+    margin-top: 48px;
+    color: var(--secondarycolor);
+    font-family: var(--font-style-heading);
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.addButton {
+    background-color: var(--secondarycolor);
+    border: none;
+    color: var(--primarycolor);
+    padding: .5rem;
+    font-size: var(--font-style-paragraph);
+    font-family: var(--font-style-paragraph);
+    font-size: var(--font-size-paragraph-1);
+    border-radius:0.25rem;
+    width: 50vw;
+    height: 2.5rem;
+    font-weight:500;
+
+}
+
+
+.loadButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondarycolor);
+    font-family: var(--font-style-paragraph);
+    font-size: var(--font-size-paragraph-1);
+  
+    border-radius: 4px;
+    width: 200px;
+    height: 2rem;
+  
+    font-weight: 500;
+    
+    
+    letter-spacing: 0.02em;
+    color:var(--primarycolor);
+   
+    text-align: center;
+    
+}
+
+.photoPreview {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+}
+
+.select {
+    color: var(--secondarycolor);
+    font-size: var(--font-size-paragraph-1);
+    font-family: var(--font-style-paragraph);
+    background-color: transparent;
+    border: 2px solid var(--secondarycolor) ;
+    height: 2.5rem;
+    width: 80vw;
+    border-radius:0.25rem;
+  
+  }
+
+  .loadButtonDefaut{
+    display: none;
+  }
+
+  .backButton {
+    background: transparent;
+    border: none;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.errorMessage {
+    color: #810000;
+    font-size: var(--font-size-paragraph-1);
+    font-family: var(--font-style-paragraph);
+}
+
+
+

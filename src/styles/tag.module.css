@@ -1,0 +1,16 @@
+.tagButton {  
+  background-color: var(--secondarycolor);
+  color: var(--primarycolor);
+  font-size: var(--font-size-paragraph-2);
+  font-family: var(--font-style-heading);
+  padding: .2rem .5rem;
+  border: none;
+  margin: 4px;
+  
+  
+  border-radius: 1px;
+  box-shadow: 1px 1px 0px 0.5px #000;
+  
+}
+
+
