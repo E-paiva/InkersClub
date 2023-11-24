@@ -26,7 +26,7 @@ export default function InputSearch({ changeParams, search }) {
    }
 
    useEffect(() => {
-      fetch('../cities.json')
+      fetch('cities.json')
          .then(response => response.json())
          .then(cities => {
             setCities(cities);
