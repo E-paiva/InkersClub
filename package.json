@@ -11,6 +11,7 @@
     "render-build": "npm install && npm run build"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "formidable": "^3.5.1",
     "mongodb": "^6.2.0",
     "mongodg": "^0.1.0",
