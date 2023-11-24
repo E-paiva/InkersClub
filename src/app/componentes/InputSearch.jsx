@@ -32,7 +32,7 @@ export default function InputSearch({ changeParams, search }) {
             setCities(cities);
 
          })
-      fetch('/categories.json')
+      fetch('categories.json')
          .then(response => response.json())
          .then(categories => {
             setCategories(categories);
