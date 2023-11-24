@@ -8,7 +8,7 @@ export default function Home() {
     return (<>
       <Head>
         <title>InkersClub</title>
-        <link rel="icon" href="/icons/InK-Icon.ico" sizes="any" />
+        <link rel="icon" href="icons/InK-Icon.ico" sizes="any" />
       </Head>
 
         <div className={styles.body} >

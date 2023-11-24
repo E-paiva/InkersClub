@@ -56,10 +56,10 @@ export default function Login() {
   return (<div >
       <Head>
         <title>InkersClub</title>
-        <link rel="icon" href="/icons/InK-Icon.ico" sizes="any" />
+        <link rel="icon" href="icons/InK-Icon.ico" sizes="any" />
       </Head>
     <div className={styles.backButtonContainer}>
-    <button onClick={() => router.back()} className={styles.backButton}><img src="\icons\radix-icons_cross-1.svg" /></button>
+    <button onClick={() => router.back()} className={styles.backButton}><img src="icons\radix-icons_cross-1.svg" /></button>
     </div>
     <div className={styles.loginContainer}>
     <div>
