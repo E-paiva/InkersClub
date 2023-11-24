@@ -40,7 +40,7 @@ export default function FormIdProfile() {
 
   return (artistState && <div className={styles.idControlContainer}>
    <div>
-      <button onClick={() => router.back()} className={styles.backButton}><img src="\icons\radix-icons_cross-1.svg" /></button>
+      <button onClick={() => router.back()} className={styles.backButton}><img src="icons\radix-icons_cross-1.svg" /></button>
     </div>
    
     <div>

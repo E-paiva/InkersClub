@@ -55,14 +55,14 @@ export default function MyProfile() {
     return <div>
         <Head>
             <title>InkersClub</title>
-            <link rel="icon" href="/icons/InK-Icon.ico" sizes="any" />
+            <link rel="icon" href="icons/InK-Icon.ico" sizes="any" />
         </Head>
         {artistImages && 
     <div className={styles.myProfileContainer}>
         <div className={styles.headerContainer}>
             <ProfileHeader id={id} />
-            <button className={`${styles.editbutton} ${styles.button}`}onClick={() => { router.push(`/myprofile/form/${id}`) }}><img src="/icons/edit_profile.svg" /></button>
-            <button className={`${styles.addbutton} ${styles.button}`} onClick={() => { router.push(`/myprofile/addimage/${id}`) }}><img src="\icons\add_photo.svg" /></button>
+            <button className={`${styles.editbutton} ${styles.button}`}onClick={() => { router.push(`/myprofile/form/${id}`) }}><img src="icons/edit_profile.svg" /></button>
+            <button className={`${styles.addbutton} ${styles.button}`} onClick={() => { router.push(`/myprofile/addimage/${id}`) }}><img src="icons\add_photo.svg" /></button>
         </div>
         <div className={styles.cardBackground}>
             {artistImages && imagesFeed && artistImages.length > 0

@@ -75,13 +75,13 @@ export default function ShowImage() {
   return ( <>
       <Head>
         <title>InkersClub</title>
-        <link rel="icon" href="/icons/InK-Icon.ico" sizes="any" />
+        <link rel="icon" href="icons/InK-Icon.ico" sizes="any" />
       </Head>
     <div className={styles.showImageContainer}>
       {imageState && (
         <div className={styles.showImage}>
           {/* Back Button */}
-          <button onClick={() => router.back()} className={styles.backButton}><img src="\icons\radix-icons_cross-1.svg" /></button>
+          <button onClick={() => router.back()} className={styles.backButton}><img src="icons\radix-icons_cross-1.svg" /></button>
 
           <div className={styles.photoContainer}>
             

@@ -52,13 +52,13 @@ export default function ShowImage() {
   return <>
       <Head>
         <title>InkersClub</title>
-        <link rel="icon" href="/icons/InK-Icon.ico" sizes="any" />
+        <link rel="icon" href="icons/InK-Icon.ico" sizes="any" />
       </Head>
     <div className={styles.showImageContainer}> {imageState &&
     <div className={styles.showImage}>
       <div className={styles.control}>
-      <button onClick={() => router.back()} className={styles.backButton}><img src="\icons\radix-icons_cross-1.svg" /></button>
-      <button onClick={()=> setPopup(true)} className={styles.deleteButton}><img src="\icons\delete.svg" /></button>
+      <button onClick={() => router.back()} className={styles.backButton}><img src="icons\radix-icons_cross-1.svg" /></button>
+      <button onClick={()=> setPopup(true)} className={styles.deleteButton}><img src="icons\delete.svg" /></button>
       </div>
       <div className={styles.photoContainer}>
         <div className={styles.photo} style={{background: `url(/api/loadimages/${imageState.path.split("/")[2]})`, backgroundSize: 'cover', width: "90vw", height: "90vw"}} alt="Girl in a jacket" >
